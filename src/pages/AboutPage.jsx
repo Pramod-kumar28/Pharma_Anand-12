@@ -1,0 +1,19 @@
+import React from 'react';
+
+const AboutPage = () => {
+  return (
+    <div className="min-h-screen bg-white">
+      <div className="container mx-auto px-4 py-16">
+        <h1 className="text-4xl font-bold text-center text-gray-900 mb-8">
+          About Us
+        </h1>
+        <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
+          This is the about page. You can add your content here.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default AboutPage;
+
