@@ -15,6 +15,7 @@
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ProfilePage from './pages/ProfilePage';
+import ScrollToTop from './pages/ScrollToTop';
 
 
   function App() {
@@ -23,6 +24,7 @@ import ProfilePage from './pages/ProfilePage';
         <div className="min-h-screen bg-white flex flex-col">
           <Header />
           <main className="flex-grow">
+              <ScrollToTop/>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/products" element={<ProductsPage />} />
